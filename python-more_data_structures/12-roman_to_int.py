@@ -18,7 +18,7 @@ def roman_to_int(roman_string):
             else:
                 sum += 10
         elif roman_string[i] == 'L':
-            sum  += 50
+            sum += 50
         elif roman_string[i] == 'C':
             if roman_string[i + 1] == 'D' or roman_string[i + 1] == 'M':
                 sum -= 100
