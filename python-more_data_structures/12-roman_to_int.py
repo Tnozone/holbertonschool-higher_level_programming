@@ -26,7 +26,7 @@ def roman_to_int(roman_string):
                 sum += 100
         elif roman_string[i] == 'D':
             sum += 500
-        elif roman_string[i] == 'M'
+        elif roman_string[i] == 'M':
             sum += 1000
         else:
             return 0
