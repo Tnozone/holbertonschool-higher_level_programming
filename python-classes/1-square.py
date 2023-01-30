@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" class module documentation """
+""" 1-square.py: class module documentation """
 
 
 class Square:
