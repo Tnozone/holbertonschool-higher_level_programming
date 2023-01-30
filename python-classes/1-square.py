@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""class module documentation"""
+""" class module documentation """
 
 
 class Square:
-    """define a Square class.
+    """ define a Square class.
     Args:
         size (int): Size of the square.
 
