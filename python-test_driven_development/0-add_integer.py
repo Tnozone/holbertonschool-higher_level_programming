@@ -5,8 +5,8 @@
 def add_integer(a, b=98):
     """ addition function """
 
-    if a is not isinstance(a, int) or a is not isinstance(a, float):
+    if a is not int or a is not float:
         raise TypeError("a must be an integer")
-    if b is not isinstance(b, int) or b is not isinstance(b, float):
+    if b is not int or b is not float:
         raise TypeError("b must be an integer")
     return (int(a) + int(b))
