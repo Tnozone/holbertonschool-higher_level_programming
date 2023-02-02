@@ -10,7 +10,7 @@ True
 My name is Max Minus
 
 >>> say_my_name("Wonka")
-My name is Wonka
+My name is Wonka 
 
 >>> say_my_name('l', "Merfudd")
 My name is l Merfudd
