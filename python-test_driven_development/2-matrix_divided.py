@@ -4,7 +4,4 @@
 def matrix_divided(matrix, div):
     """ matrix division function """
 
-    new = matrix[:]
-    for i in matrix:
-        new[i] = matrix[i] / div
-    return new
+    return [[round(x / div, 2) for x in list] ofr list in matrix]
