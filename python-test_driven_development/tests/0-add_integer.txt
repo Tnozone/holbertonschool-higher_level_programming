@@ -1,33 +1,33 @@
 >>> add_integer = __import__('0-add_integer').add_integer
 
->>> print(add_integer(1, 2))
+>>> add_integer(1, 2)
 3
 
->>> print(add_integer(70, -1))
+>>> add_integer(70, -1)
 69
 
->>> print(add_integer(2))
+>>> add_integer(2)
 100
 
->>>print(add_integer(40.1, 10))
+>>> add_integer(40.1, 10)
 50
 
->>> print(add_integer(4, "School"))
+>>> add_integer(4, "School")
 Traceback (most recent call last):
 ...
 TypeError: b must be an integer
 
->>> print(add_integer(10e1000))
+>>> add_integer(10e1000)
 Traceback (most recent call last):
 ...
 OverflowError: cannot convert float infinity to integer
 
->>> print(add_integer(float('nan')))
+>>> add_integer(float('nan'))
 Traceback (most recent call last):
 ...
 ValueError: cannot convert float NaN to integer
 
->>> print(add_integer('+'))
+>>> add_integer('+')
 Traceback (most recent call last):
 ...
 TypeError: a must be an integer
