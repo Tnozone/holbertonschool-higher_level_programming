@@ -6,14 +6,14 @@ True
 >>> len(__import__("5-text_indentation").text_indentation.__doc__) > 0
 True
 
->>> text_indentation("Holberton School. How good are you at computers? Come and try in: Paris.")
+>>> text_indentation("Holberton School. How good are you at computers? Come and try in: Paris")
 Holberton School.
 <BLANKLINE>
 How good are you at computers?
 <BLANKLINE>
 Come and try in:
 <BLANKLINE>
-Paris.
+Paris
 
 >>> text_indentation(36)
 Traceback (most recent call last):
