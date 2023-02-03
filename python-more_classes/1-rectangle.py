@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" Module documentation """
+"""
+    Define a class
+"""
 
 
 class Rectangle:
