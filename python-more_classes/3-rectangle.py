@@ -49,5 +49,6 @@ class Rectangle:
         else:
             Rectangle = ""
             for i in range(self.__height):
-                Rectangle += "#" * self.__width + "\n" if i < self.height - 1 else "#" * self.
+                Rectangle += "#" * self.__width + "\n"\
+                        if i < self.height - 1 else "#" * self.__width
             return Rectangle
