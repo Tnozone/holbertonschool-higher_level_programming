@@ -5,6 +5,6 @@
 def read_file(filename=""):
     """ read file function """
 
-    with open(filename, "r") as f
+    with open(filename, "r") as f:
         f = f.read
         print(f, end="")
