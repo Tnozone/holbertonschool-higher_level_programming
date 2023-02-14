@@ -35,7 +35,7 @@ class Rectangle(Base):
     def x(self):
         return self.__x
 
-    @x.setter(self, value)
+    @x.setter
     def x(self, value):
         self.__x = value
 
