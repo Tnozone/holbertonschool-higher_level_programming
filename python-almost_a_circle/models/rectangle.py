@@ -63,6 +63,14 @@ class Rectangle(Base):
             raise ValueError("y must be >= 0")
         self.__y = value
 
+    @property
+    def id(self):
+        return self.__id
+
+    @id.setter
+    def id(self, value):
+        self.__id = value
+
     def area(self):
         """area function"""
 
