@@ -2,6 +2,9 @@
 """base documentation"""
 
 
+import json
+
+
 class Base:
     """class base"""
 
