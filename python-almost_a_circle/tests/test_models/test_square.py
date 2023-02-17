@@ -1,13 +1,15 @@
 #!/usr/bin/python3
-import unittest
-from models.rectangle import Rectangle
-from models.base import Base
-from models.square import Square
-from io import StringIO
-from contextlib import redirect_stdout
 
 
 """square test"""
+
+
+import unittest
+from io import StringIO
+from contextlib import redirect_stdout
+from models.rectangle import Rectangle
+from models.square import Square
+from models.base import Base
 
 
 class TestSquare(unittest.TestCase):
