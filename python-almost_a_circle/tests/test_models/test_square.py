@@ -96,7 +96,7 @@ class TestSquare(unittest.TestCase):
         Square.save_to_file([s])
         with open("Square.json", "r") as f:
             read = f.read()
-        result = '[{"id": 1, "size": 10, "x": 2, "y": 8}]'
+        result = '[{"size": 10, "x": 2, "y": 8, "id": 1}]'
         self.assertEqual(read, result)
 
         Square.save_to_file([])
