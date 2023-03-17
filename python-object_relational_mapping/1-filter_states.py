@@ -3,7 +3,7 @@
 
 
 import MySQLdb
-from sys
+import sys
 
 
 if __name__ == "__main__":
@@ -12,10 +12,11 @@ if __name__ == "__main__":
             port=3306,
             user=sys.argv[1],
             passwd=sys.argv[2],
-            database=sys.argv[3])
+            database=sys.argv[3]
+            )
     cur = conn.cursor()
-    cur.execute("SELECT * FROM states WHERE CAST(name AS BINARY) LIKE 'N%' 
-            ORDER BY states.id ASC")
+    cur.execute("SELECT * FROM states WHERE CAST(name AS BINARY) LIKE 'N%' \
+                ORDER BY states.id ASC")
     query_rows = cur.fetchall()
     for row in query_rows:
         print(row)
