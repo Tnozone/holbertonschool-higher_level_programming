@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const first = rocess.argv[2];
+const first = process.argv[2];
 
 if (first === undefined) {
   console.log('No argument');
