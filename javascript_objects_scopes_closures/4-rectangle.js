@@ -9,32 +9,25 @@ class Rectangle {
   }
 
   print () {
-    if (!this.width || !this.height) {
-    } else {
-      let str = '';
-      for (let i = 0; i < this.height; i++) {
-        for (let j = 0; j < this.width; j++) {
-          str += 'X';
-        }
-        console.log(str);
-        str = '';
+    let str = '';
+    for (let i = 0; i < this.height; i++) {
+      for (let j = 0; j < this.width; j++) {
+        str += 'X';
       }
+      console.log(str);
+      str = '';
     }
   }
 
   rotate () {
-    if (!this.width || !this.height) {
-    } else {
-      [this.width, this.height] = [this.height, this.width];
-    }
+    const temp = this.width;
+    this.width = this.height;
+    this.height = temp;
   }
 
   double () {
-    if (!this.width || !this.height) {
-    } else {
-      this.width *= 2;
-      this.height *= 2;
-    }
+    this.width *= 2;
+    this.height *= 2;
   }
 }
 
