@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 class Rectangle {
-  onstructor (w, h) {
+  constructor (w, h) {
     this.width = w;
     this.height = h;
   }
