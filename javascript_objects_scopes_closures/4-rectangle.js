@@ -9,13 +9,16 @@ class Rectangle {
   }
 
   print () {
-    let str = '';
-    for (let i = 0; i < this.height; i++) {
-      for (let j = 0; j < this.width; j++) {
-        str += 'X';
+    if (!this.width || !this.height) {
+    } else {
+      let str = '';
+      for (let i = 0; i < this.height; i++) {
+        for (let j = 0; j < this.width; j++) {
+          str += 'X';
+        }
+        console.log(str);
+        str = '';
       }
-      console.log(str);
-      str = '';
     }
   }
 
