@@ -10,4 +10,4 @@ request(url, (error, response) => {
     return;
   }
   console.log(`code: ${response.statusCode}`);
-}
+});
