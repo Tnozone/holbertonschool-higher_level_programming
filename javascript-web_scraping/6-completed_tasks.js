@@ -10,7 +10,7 @@ request(process.argv[2], function (err, response, body) {
       if (json[i].completed === true) {
         if (res[json[i].userId] === undefined) {
           res[json[i].userId] = 0;
-	}
+        }
         res[json[i].userId]++;
       }
     }
