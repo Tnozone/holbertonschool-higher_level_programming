@@ -1,3 +1,3 @@
 #!/usr/bin/node
 
-$('heander').css('color', '#FF0000')
+$('header').css('color', '#FF0000')
